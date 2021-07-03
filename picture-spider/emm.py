@@ -15,7 +15,7 @@ headers={
     'Referer': 'https://www.invshen.net'
 }
 
-# 网站的图片必须是在自己的网址链接打开才可以下载
+# 网站的图片必须是在自己的网址链接打开才可以下载 kroling-2021-5-23
 
 headers['User-Agent']=UserAgent().random
 
