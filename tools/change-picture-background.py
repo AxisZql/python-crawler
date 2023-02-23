@@ -33,7 +33,7 @@ mask = cv.GaussianBlur(mask, (5, 5), 0)
 cv.imshow('alpha-image',mask)
 
 # 白色背景
-bg = np.ones(image.shape, dtype=np.float)*255.
+bg = np.ones(image.shape, dtype=float)*255.
 
 # 红色背景
 red = np.array([0, 0, 255])
